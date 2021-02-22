@@ -62,10 +62,18 @@ Resultados
 6    G1009       4      14      40     110
 ~~~
 Conclusión se obtuvo de output la tabla: **ESP_baps**  
-Nota: tambien hay un valor de bootstrap.
+Nota: tambien hay un valor de bootstrap
+
 ### Generacion de arbol filogenetico (ITOL)
-Mejor un arbol aparte o sobreponerlo?
+input: **ESP.fq**
+
+Mejor un arbol nuevo o sobreponerlo?
 Corriendo el arbol...
+~~~
+/home/carlos/Epi_val_baps
+
+nohup nice -n 5 iqtree -s ESP.fq -m GTR -nt 20 -o G177m -vv -bb 1000 &
+~~~
 
 
 ### Tablas de frecuencias y asociaciones
