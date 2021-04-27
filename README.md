@@ -74,6 +74,9 @@ Corriendo el arbol...
 
 nohup nice -n 5 iqtree -s ESP.fq -m GTR -nt 20 -o G177m -vv -bb 1000 &
 ~~~
+Generamos el nuevo arbol: **ESP.fq.treefile** (no lo usare)
+Graficamos sobre el arbol anterior los resultados del lvl2: **ESP_baps_lvl2.txt**
 
-
-### Tablas de frecuencias y asociaciones
+## Conclusion
+**Los resultados son muy similares**
+https://itol.embl.de/tree/16111121936428041608308653
